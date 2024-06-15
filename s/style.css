@@ -1,0 +1,102 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.y{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    
+}
+.p{
+    display: inline-block;
+    height: 50px;
+    width: 140px;
+    background-color: rgba(27, 23, 23, 0.685);
+    box-sizing: border-box;
+    padding-top:15px ;
+    text-align: center;
+    position: relative;
+}
+.H{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.p:hover{
+    background-color: rgba(255, 0, 0, 0.767);
+    transition: 0.3s;
+    
+}
+.drop_down{
+    width: 140px;
+    display: none;
+    border-radius: 10px 10px 10px 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    position: absolute;
+    top: 50px;
+    left: 16px;
+    
+    box-sizing: border-box;
+    background-color: rgba(41, 100, 81, 0.89);
+}
+.nm{
+    font-size: 20px;
+    width: 140px;
+    height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 10px;
+    border-width: 0;
+    border-style: solid;
+}
+.hol{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.nm:hover{
+    background-color: rgba(4, 66, 68, 0.836);
+}
+#y:hover .drop_down{
+   display: block;
+}
+#p:hover .drop_down{
+    display: block;
+ }
+ #o:hover .drop_down{
+    display: block;
+ }
+ #i:hover .drop_down{
+    display: block;
+ }
+ #u:hover .drop_down{
+    display: block;
+ }
+ .nav{
+    width: 100%;
+    background-color: black;
+ }
+ .sos{
+    
+    
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgba(4, 66, 68, 0.836);
+    position: absolute;
+    border-radius: 10px 10px 10px 10px;
+    top: 20px;
+    left: 140px;
+    display: none;
+
+ }
+ #ass{
+    position: relative;
+ }
+ #ass:hover .sos{
+    display: block;
+ }
